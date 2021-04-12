@@ -1,0 +1,3 @@
+nmp initailizer according to installed versions: npm init -y
+Prettier: npm i -D prettier
+prettier \"src/**/*.[js,html]\"
