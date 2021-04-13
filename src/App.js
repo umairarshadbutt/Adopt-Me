@@ -1,3 +1,6 @@
+import React from "react";
+import {render} from "react-dom";
+
 let startAt = performance.now();
 
 const Pet = ({name,animal,bread}) => {
@@ -31,7 +34,7 @@ const App = () => {
     );
 };
 
-ReactDOM.render(React.createElement(App), document.getElementById("root"));
+render(React.createElement(App), document.getElementById("root"));
 
 let endAt = performance.now();
 console.log(endAt - startAt)
